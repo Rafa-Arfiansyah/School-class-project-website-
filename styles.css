@@ -348,7 +348,7 @@ section .title::after {
 
 .teams .carousel .card a {
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
 }
 
 .teams .carousel .card a:hover {
