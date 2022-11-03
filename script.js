@@ -35,16 +35,16 @@ $(document).ready(function() {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: [" Student", " Solid", " Studious"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        strings: [" Student", " Solid", " Studious", "KELAS Paling SOLID 2022"],
+        typeSpeed: 80,
+        backSpeed: 70,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: [" Student", " Solid", " Studious"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        strings: [" Student", " Solid", " Studious", "KELAS Paling SOLID 2022"],
+        typeSpeed: 80,
+        backSpeed: 70,
         loop: true
     });
 

@@ -346,6 +346,15 @@ section .title::after {
     margin: 10px 0 7px 0;
 }
 
+.teams .carousel .card a {
+    text-decoration: none;
+    color: white;
+}
+
+.teams .carousel .card a:hover {
+    color: lightskyblue;
+}
+
 .teams .carousel .card img {
     height: 150px;
     width: 150px;
