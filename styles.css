@@ -353,6 +353,7 @@ section .title::after {
 
 .teams .carousel .card a:hover {
     color: royalblue;
+    text-decoration: none;
 }
 
 .teams .carousel .card img {
