@@ -21,15 +21,16 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: darkgray;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: rgba(220, 20, 60, 0.61);
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: crimson;
 }
 
 
@@ -46,8 +47,6 @@ section {
 }
 
 .about,
-.services,
-.skills,
 .teams,
 .contact,
 footer {
@@ -55,8 +54,6 @@ footer {
 }
 
 .about .about-content,
-.services .serv-content,
-.skills .skills-content,
 .contact .contact-content {
     display: flex;
     flex-wrap: wrap;
@@ -253,9 +250,6 @@ section .title::after {
 }
 
 
-/* teacher section styling */
-
-
 /* about section styling */
 
 .about .title::after {
@@ -313,23 +307,6 @@ section .title::after {
 }
 
 
-/* services section styling */
-
-.teams {
-    color: #fff;
-    background: #111;
-}
-
-.teams .title::before {
-    background: #fff;
-}
-
-.teams .title::after {
-    background: #111;
-    content: "what i provide";
-}
-
-
 /* teams section styling */
 
 .teams .title::after {
@@ -373,7 +350,7 @@ section .title::after {
     height: 150px;
     width: 150px;
     object-fit: cover;
-    border-radius: 35%;
+    border-radius: 50%;
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
@@ -405,6 +382,20 @@ section .title::after {
 .owl-dot.active,
 .owl-dot:hover {
     background: crimson!important;
+}
+
+.teams {
+    color: #fff;
+    background: #111;
+}
+
+.teams .title::before {
+    background: #fff;
+}
+
+.teams .title::after {
+    background: #111;
+    content: "what i provide";
 }
 
 
