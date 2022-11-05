@@ -17,20 +17,20 @@ html {
 /* custom scroll bar */
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 
 ::-webkit-scrollbar-track {
-    background: darkgray;
+    background: rgb(192, 189, 189);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgba(220, 20, 60, 0.61);
+    background: crimson;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: crimson;
+    background: rgba(220, 20, 60, 0.61);
 }
 
 
